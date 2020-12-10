@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" type="image/png" href="./img/space-ship.svg" />
+
+    <link rel="stylesheet" href="main.css" />
+    <title>Klingon Translator</title>
+  </head>
+  <body>
+    <div class="main-img-container"></div>
+    <div class="heading">
+      <div class="welcome-msg">
+        <h1 class="welcome-heading">Welcome to Pirate Translator</h1>
+
+        <div class="social-icons">
+          <ul>
+            <li class="social-item">
+              <a
+                href="https://github.com/MaverickCreative"
+                class="social-links"
+                target="_blank"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/maverickcreative/"
+                class="social-links"
+                target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://stackoverflow.com/users/11056952/anurag-sanghvi?tab=profile"
+                class="social-links"
+                target="_blank"
+                ><i class="fa fa-stack-overflow"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="user-area">
+      <div class="row">
+        <div class="col-1-of-2 user-ip">
+          <textarea
+            name=""
+            id="user-input"
+            cols=""
+            rows=""
+            placeholder="Please enter the text you wanna translate :)"
+          ></textarea>
+          <div class="translate">
+            <a href="#" class="translate-btn">Translate</a>
+          </div>
+        </div>
+        <div class="col-1-of-2 user-op">
+          <div id="user-output"></div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
