@@ -155,7 +155,7 @@ body {
   .main-img-container {
     height: 200vh;
     width: 100vw;
-    background-position-x: center;
+    background-position-x: 75%;
   }
   .row {
     width: 90%;
